@@ -8,6 +8,9 @@
     <meta name="keywords" content="crypto,moeda,programcao,desenvolvimento">
     <meta name="author" content="Alexssander - Lucas - Pablo">
     <link rel="stylesheet" href="\css\index.css"> 
+    <link rel="stylesheet" href="/CSS/grafico.css">
+    <script src="/js/script.js"></script>
+    <script src="/js/callGraphic.js"></script>
     <title>Doge</title>
 </head>
 <body>
@@ -35,7 +38,19 @@
         </header>
     </div>
 
-  <p>doge</p>
-    <script src="/js/script.js"></script>
+    <div class="grafico-pai">
+
+        <div class="grafico-filho">
+            
+            <div class="description">
+                <img src="/img/dogeDois.png">
+            </div>
+
+            <iframe src="http://localhost:3000/grafico?moeda=DOGEUSDT" width="800" height="600"></iframe>
+             
+        </div>
+
+    </div>
+
 </body>
 </html>

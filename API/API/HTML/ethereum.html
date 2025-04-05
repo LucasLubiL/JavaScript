@@ -8,6 +8,9 @@
     <meta name="keywords" content="crypto,moeda,programcao,desenvolvimento">
     <meta name="author" content="Alexssander - Lucas - Pablo">
     <link rel="stylesheet" href="\css\index.css"> 
+    <link rel="stylesheet" href="/CSS/grafico.css">
+    <script src="/js/script.js"></script>
+    <script src="/js/callGraphic.js"></script>
     <title>Ethereum</title>
 </head>
 <body>
@@ -34,7 +37,20 @@
             </ul>
         </header>
     </div>
-    <p>ethere</p>
-    <script src="/js/script.js"></script>
+    
+    <div class="grafico-pai">
+
+        <div class="grafico-filho">
+            
+            <div class="description">
+                <img src="/img/ethereumUm.png">
+            </div>
+
+            <iframe src="http://localhost:3000/grafico?moeda=ETHUSDT" width="800" height="600"></iframe>
+             
+        </div>
+
+    </div>
+
 </body>
 </html>
