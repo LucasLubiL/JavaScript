@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="\css\index.css"> 
     <link rel="stylesheet" href="/CSS/grafico.css">
     <script src="/js/script.js"></script>
-    <script src="/js/callGraphic.js"></script>
+    <script src="/graphic/src/callGraphic.js"></script>
     <title>BitCoin</title>
 </head>
 <body>
@@ -44,6 +44,7 @@
             
             <div class="description">
                 <img src="/img/bitcoinUm.png">
+                <h3>Valor em BRL: <span id="preco-btc">Carregando...</span></h3>
             </div>
 
             <iframe class="grafico" src="http://localhost:3000/grafico?moeda=BTCBRL" width="800" height="600"></iframe>
@@ -52,7 +53,23 @@
 
     </div>
 
+    <footer class="footer">
 
+        <div class="fundoUm">
+            <img class="fundo1" src="/img/logoCrypto.png">
+        </div>
+        <div class="cabeFooter">
+            <div>
+                <ul class="homeFooter">
+                    <li class="li"><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+            <ul class="cabecalhoFooter">
+                <li class="sobre li"><a href="SobreNos.html">Sobre Nós</a></li>
+            </ul>
+        </div>
+
+    </footer>
 
 </body>
 </html>
